@@ -1,0 +1,20 @@
+# Ignore package manager directories
+/node_modules
+/packages
+/logs
+
+# Ignore build output
+/build
+/dist
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.test.local
+docker-compose.env
+
+.vscode
+
+yarn-error.log
